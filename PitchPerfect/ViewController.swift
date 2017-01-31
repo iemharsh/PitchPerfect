@@ -16,6 +16,10 @@ class ViewController: UIViewController {
     @IBOutlet weak var recordingLabel: UILabel!
     @IBOutlet weak var stopRecording: UIButton!
     
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        stopRecording.isEnabled = false
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -29,11 +33,16 @@ class ViewController: UIViewController {
 
     @IBAction func startRecording(_ sender: Any) {
         recordingLabel.text = "Recording"
+        recordButton.isEnabled = false
+        stopRecording.isEnabled = true
     }
 
 
     @IBAction func stopRecording(_ sender: Any) {
         recordingLabel.text = "Recording Stopped"
+        recordButton.isEnabled = true
+        stopRecording.isEnabled = false
+        
     }
     
     
