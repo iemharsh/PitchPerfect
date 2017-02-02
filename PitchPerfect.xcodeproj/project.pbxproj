@@ -14,6 +14,7 @@
 		CBF169D41E40D06A00426708 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBF169D21E40D06A00426708 /* LaunchScreen.storyboard */; };
 		CBF169DF1E40D06A00426708 /* PitchPerfectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF169DE1E40D06A00426708 /* PitchPerfectTests.swift */; };
 		CBF169EA1E40D06A00426708 /* PitchPerfectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF169E91E40D06A00426708 /* PitchPerfectUITests.swift */; };
+		CBF169F81E43248900426708 /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF169F71E43248800426708 /* PlaySoundsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		CBF169E51E40D06A00426708 /* PitchPerfectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PitchPerfectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBF169E91E40D06A00426708 /* PitchPerfectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PitchPerfectUITests.swift; sourceTree = "<group>"; };
 		CBF169EB1E40D06A00426708 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBF169F71E43248800426708 /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySoundsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				CBF169D01E40D06A00426708 /* Assets.xcassets */,
 				CBF169D21E40D06A00426708 /* LaunchScreen.storyboard */,
 				CBF169D51E40D06A00426708 /* Info.plist */,
+				CBF169F71E43248800426708 /* PlaySoundsViewController.swift */,
 			);
 			path = PitchPerfect;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CBF169CC1E40D06900426708 /* ViewController.swift in Sources */,
+				CBF169F81E43248900426708 /* PlaySoundsViewController.swift in Sources */,
 				CBF169CA1E40D06900426708 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
